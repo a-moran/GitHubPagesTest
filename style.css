@@ -1,3 +1,31 @@
+html {
+    font-family: Helvetica;
+}
+
 body {
-    background-color: teal;
+    background-color: rgb(193, 213, 226);
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+
+    color: rgb(245, 221, 176)
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: .5rem;
+    margin: auto;
+
+    font-size: 18px;
+    width: 75%;
+
+    background-color: rgb(217, 233, 243);
+    color: rgb(246, 255, 253);
+}
+
+#portrait {
+    width: 20%;
 }
